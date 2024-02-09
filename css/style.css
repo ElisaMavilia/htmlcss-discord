@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 /* general */
-
 :root{ 
 	--color-scondary: #ffffff;
 	--color-primary: #23272a;
@@ -22,13 +21,15 @@
     justify-content: space-between;
 }
 
-
 /* body */
 body{
     font-family: "Noto Sans", sans-serif;
 }
 
 /* header */
+header{
+    width: 100%;
+}
 
 nav{
    background-color: var(--color-header-bg);
@@ -37,7 +38,6 @@ nav{
 .nav-menu{
    text-decoration: none;
    list-style: none;
-   color: var(--color-section-bg);
 }
 
 .container{
@@ -51,46 +51,29 @@ nav{
     background-size: cover;
 }
 
-#feature{
-    background-color: var(--color-scondary);
-}
-
-#channel{
-    background-color: var(--color-section-bg);
-}
-
-#community{
-    background-color: var(--color-scondary);
-}
-
-#technology{
-    background-color: var(--color-section-bg);
-}
-
-#call-to-action{
-    background-color: var(--color-section-bg);
-}
-
-
 .small-container{
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-
 }
 
 /* main */
 
-.bg-color-main{
-    background-color: var(--color-scondary);
-}
 
 /* footer */
-.bg-color-footer{
+
+.white-text{
+    color: var(--color-scondary);
+}
+
+.color-secondary{
+    background-color: var(--color-secondary);
+}
+
+.color-section{
+    background-color: var(--color-section-bg);
+}
+
+.color-primary{
     background-color: var(--color-primary);
-}
-
-/* footer */
-footer{
-    color:var(--color-scondary);
 }
