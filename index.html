@@ -12,18 +12,18 @@
 <body>
     <!-- header whit navbar and hero -->
     <header>
-        <nav>
-            <div class="d-flex container">
+        <nav class="d-flex space-between align-items-center">
                 <img src="img/logo.svg" alt="Discord Logo">
-                <ul class="d-flex">
-                    <li><a class="nav-menu white-text" href="#">Scarica</a></li>
-                    <li><a class="nav-menu white-text" href="#">Perché Discord</a></li>
-                    <li><a class="nav-menu white-text" href="#">Nitro</a></li>
-                    <li><a a class="nav-menu white-text" href="#">Sicurezza</a></li>
-                    <li><a a class="nav-menu white-text" href="#">Assistenza</a></li>
+                <ul class="d-flex nav-menu">
+                    <li><a class="nav-menu" href="#"></a> Scarica</li>
+                    <li><a class="nav-menu" href="#"></a> Perché Discord</li>
+                    <li><a class="nav-menu" href="#"></a> Nitro</li>
+                    <li><a class="nav-menu" href="#"></a> Sicurezza</li>
+                    <li><a class="nav-menu" href="#"></a> Assistenza</li>
                 </ul>
-            </div>
-         </nav>
+                <a href="#">Accedi</a>
+            </nav>
+
         <div id="hero">
             <div class="small-container">
                 <h1 class="white-text">Il tuo posto per parlare</h1>
@@ -36,9 +36,9 @@
 
     <!-- main with 5 sections -->
     <main>
-        <div class="container color-secondary d-flex">
-            <section id="feature">
-                <div class="d-flex left">
+        <div class="container color-secondary">
+            <section id="feature" class="d-flex">
+                <div class="left">
                     <img src="img/item1.svg" alt="feature image">
                 </div>
                 <div class="right">
@@ -51,26 +51,28 @@
         </div>
         
         <div class="container color-section">
-            <section id="channel">
+            <section id="channel" class="d-flex">
                  <img src="img/item2.svg" alt="feature image"> 
             </section>
         </div>
        
         <div class="container color-secondary">
-            <section id="community">
+            <section id="community" class="d-flex row-reverse">
                 <img src="img/item3.svg" alt="feature image">
+                <h2>Dove trovarsi è facile</h2>
             </section>
         </div>
         
         <div class="container color-section">
-            <section id="technology">
+            <section id="technology" class="d-flex">
                 <img src="img/item4-big.svg" alt="feature image">
             </section>
         </div>
         
         <div class="container color-section">
-            <section id="call-to-action" class="row-reverse">
+            <section id="call-to-action" class="d-flex">
                 <img src="img/stars.svg" alt="stelline">
+                Call to action
             </section>
         </div>
         
