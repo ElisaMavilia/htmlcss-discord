@@ -18,7 +18,10 @@ body{
 
 nav{
    background-color: royalblue
+   
 }
+
+
 
 
 .container{
@@ -38,5 +41,14 @@ nav{
 
 }
 
+/* main */
 
+.bg-color-footer{
+    background-color: var(--color-scondary);
+}
+
+/* footer */
+.bg-color-footer{
+    background-color: var(--color-primary);
+}
 
