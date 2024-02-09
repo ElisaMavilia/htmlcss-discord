@@ -1,0 +1,41 @@
+/* general */
+
+
+/* body */
+
+body{
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+:root {
+	--color-scondary: #ffffff;
+	--color-primary: #23272a;
+	--color-header-bg: #255ee9;
+	--color-section-bg: #f6f6f6;
+	--color-contrast: #aebbe7;
+}
+
+body{
+ 
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+#hero{
+    min-height: 500px;
+    background-image: url("");
+}
+
+.small-container{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+
+
