@@ -19,11 +19,11 @@
 .d-flex{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 
 /* body */
-
 body{
     font-family: "Noto Sans", sans-serif;
 }
@@ -46,10 +46,31 @@ nav{
 }
 
 #hero{
-    min-height: 500px;
-   background-image: url(../img/jumbo.png);
+    min-height: 600px;
+    background-image: url(../img/jumbo.png);
     background-size: cover;
 }
+
+#feature{
+    background-color: var(--color-scondary);
+}
+
+#channel{
+    background-color: var(--color-section-bg);
+}
+
+#community{
+    background-color: var(--color-scondary);
+}
+
+#technology{
+    background-color: var(--color-section-bg);
+}
+
+#call-to-action{
+    background-color: var(--color-section-bg);
+}
+
 
 .small-container{
     max-width: 800px;
@@ -69,3 +90,7 @@ nav{
     background-color: var(--color-primary);
 }
 
+/* footer */
+footer{
+    color:var(--color-scondary);
+}
