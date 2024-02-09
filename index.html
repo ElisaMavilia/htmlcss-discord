@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/utility.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,20 +11,20 @@
 </head>
 <body>
     <!-- header whit navbar and hero -->
-    <header class="debug">
+    <header>
         <nav>
-            <div class=".d-flex">
+            <div class="d-flex">
                 <img src="img/logo.svg" alt="Discord Logo">
-                <ul>
-                    <li><a href="#">Scarica</a></li>
-                    <li><a href="#">Perché Discord</a></li>
-                    <li><a href="#">Nitro</a></li>
-                    <li><a href="#">Sicurezza</a></li>
-                    <li><a href="#">Assistenza</a></li>
+                <ul class="d-flex">
+                    <li><a class="nav-menu" href="#">Scarica</a></li>
+                    <li><a class="nav-menu" href="#">Perché Discord</a></li>
+                    <li><a class="nav-menu" href="#">Nitro</a></li>
+                    <li><a a class="nav-menu" href="#">Sicurezza</a></li>
+                    <li><a a class="nav-menu" href="#">Assistenza</a></li>
                 </ul>
             </div>
          </nav>
-        <div class="hero">
+        <div id="hero">
             <div class="small-container">
                 <h1>Il tuo posto per parlare</h1>
                 <p>
@@ -36,7 +35,7 @@
     </header>
 
     <!-- main with 5 sections -->
-    <main class=".bg-color-footer">main
+    <main class="container bg-color-main">main
         <section id="feature">
             feature
         </section>
