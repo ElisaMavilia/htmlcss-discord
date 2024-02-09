@@ -13,7 +13,7 @@
     <!-- header whit navbar and hero -->
     <header>
         <nav>
-            <div class="d-flex">
+            <div class="d-flex container">
                 <img src="img/logo.svg" alt="Discord Logo">
                 <ul class="d-flex">
                     <li><a class="nav-menu white-text" href="#">Scarica</a></li>
@@ -26,22 +26,27 @@
          </nav>
         <div id="hero">
             <div class="small-container">
-                <h1>Il tuo posto per parlare</h1>
-                <p>
-                   paragrafo 
+                <h1 class="white-text">Il tuo posto per parlare</h1>
+                <p class="white-text">
+                   Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso. 
                 </p>
             </div>
         </div>
     </header>
 
     <!-- main with 5 sections -->
-    <main class="container">
-        <div class="container color-secondary">
+    <main>
+        <div class="container color-secondary d-flex">
             <section id="feature">
-                <img src="img/item1.svg" alt="feature image">
-                <h2>
-                    Un luogo a invito con tutto lo spazio per parlare
-                </h2>
+                <div class="d-flex left">
+                    <img src="img/item1.svg" alt="feature image">
+                </div>
+                <div class="right">
+                    <h2>
+                        Un luogo a invito con tutto lo spazio per parlare
+                    </h2>
+                </div>
+                
             </section>
         </div>
         
@@ -64,7 +69,7 @@
         </div>
         
         <div class="container color-section">
-            <section id="call-to-action ">
+            <section id="call-to-action" class="row-reverse">
                 <img src="img/stars.svg" alt="stelline">
             </section>
         </div>
