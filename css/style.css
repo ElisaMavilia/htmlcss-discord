@@ -30,6 +30,10 @@
     background-color: var(--color-primary);
 }
 
+.color-contrast{
+    color: var(--color-contrast);
+}
+
 /* utility */
 .container{
     max-width: 1200px;
@@ -54,11 +58,18 @@ header{
 
 nav{
    background-color: var(--color-header-bg);
+   padding: 10px;
 }
 
 .nav-menu{
    text-decoration: none;
    list-style: none;
+   color: var(--color-scondary);
+}
+
+nav a{
+    color: var(--color-scondary);
+    text-decoration: none;
 }
 
 #hero{
@@ -76,10 +87,12 @@ nav{
 /* main */
 .right{
     width: 40%;
+    padding-top: 3%;
 }
 
 .left{
     width: 60%;
+    padding-top: 3%;
 }
 
 .row-reverse{
@@ -90,5 +103,14 @@ nav{
     justify-content: space-between;
 }
 
+.align-items-center{
+    align-items: center;
+    align-content: center;
+}
+
+
 /* footer */
+.top img{
+    width: 20px;
+}
 
