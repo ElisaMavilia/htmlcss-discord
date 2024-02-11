@@ -120,6 +120,18 @@ nav a{
     padding-top: 3%;
 }
 
+#call-to-action{
+    background-image: url(../img/stars.svg);
+}
+
+#call-to-action h2{
+    text-align: center;
+}
+
+footer span{
+    font-size: 10px;
+}
+
 /* footer */
 
 .font-size-link{
