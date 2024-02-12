@@ -67,6 +67,10 @@
     justify-content: space-between;
 }
 
+.justify-flex-start{
+    justify-content: flex-start;
+}
+
 .align-items-center{
     align-items: center;
     align-content: center;
@@ -140,6 +144,18 @@ nav a{
 .left{
     width: 60%;
     padding-top: 3%;
+}
+
+.left-image{
+    width: 100%;
+}
+
+.up{
+    width:80%;
+}
+
+.down{
+    width: 20%;
 }
 
 #call-to-action{
