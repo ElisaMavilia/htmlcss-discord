@@ -107,6 +107,28 @@ body{
     font-family: "Noto Sans", sans-serif;
 }
 
+/* buttons */
+
+.btn{
+    border-radius: 20px;
+    padding: 10px 15px;
+}
+
+.white-btn{
+    background-color: var(--color-scondary);
+    color: var(--color-primary);
+}
+
+.black-btn{
+    background-color: var(--color-primary);
+    color: var(--color-scondary);
+}
+
+.contrast-btn{
+    background-color: var(--color-contrast);
+    color: var(--color-scondary);
+}
+
 /* header */
 
 nav{
