@@ -42,7 +42,7 @@
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px;
+    /* padding: 10px; crea un gap bianco tra main e footer */ 
 }
 
 .small-container{
@@ -81,8 +81,13 @@
 
 .align-items-center{
     align-items: center;
-    align-content: center;
 }
+
+.align-items-flexstart{
+    align-items: flex-start;
+}
+
+
 
 .direction-column{
     flex-direction: column;
@@ -219,6 +224,9 @@ footer span{
 
 /* footer */
 
+h2{
+    font-size: 20px;
+}
 .font-size-link{
     font-size: 10px;
 }
