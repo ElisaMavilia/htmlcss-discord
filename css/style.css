@@ -4,7 +4,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* general */
+
+/* setup colors */
 :root{ 
 	--color-scondary: #ffffff;
 	--color-primary: #23272a;
@@ -13,7 +14,6 @@
 	--color-contrast: #aebbe7;
 }
 
-/* setup colors */
 .white-text{
     color: var(--color-scondary);
 }
@@ -47,12 +47,18 @@
 
 p{
     line-height:25px;
+    padding-top: 20px;
 }
 
 .small-container{
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
+    padding-bottom: 50px;
+}
+
+.padding-top{
+    padding-top: 50px;
 }
 
 /*utility flex*/
@@ -183,6 +189,11 @@ h1{
 
 
 /* main */
+main h2{
+    font-size: 40px;
+    vertical-align: center;
+    padding-top: 12px;
+}
 .right{
     width: 40%;
     padding-top: 3%;
@@ -219,22 +230,18 @@ h1{
     background-image: url(../img/stars.svg);
     background-position: top center;
     background-repeat: no-repeat;
-    height: 100px;
+    height: 175px;
 }
 
 #call-to-action h2{
     text-align: center;
 }
 
+/* footer */
 footer span{
     font-size: 10px;
 }
 
-/* footer */
-
-h2{
-    font-size: 20px;
-}
 .font-size-link{
     font-size: 10px;
 }
