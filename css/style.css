@@ -63,12 +63,20 @@
     flex-direction: row-reverse;
 }
 
+.column-reverse{
+    flex-direction: column-reverse;
+}
+
 .space-between{
     justify-content: space-between;
 }
 
 .justify-flex-start{
     justify-content: flex-start;
+}
+
+.justify-content-center{
+    justify-content: center;
 }
 
 .align-items-center{
@@ -78,6 +86,10 @@
 
 .direction-column{
     flex-direction: column;
+}
+
+.direction-row{
+    flex-direction: row;
 }
 
 .align-content-center{
@@ -150,12 +162,22 @@ nav a{
     width: 100%;
 }
 
+.center-image{
+    max-width: 100%;
+    background-size: cover;
+}
+
 .up{
     width:80%;
 }
 
 .down{
     width: 20%;
+    text-align: center;
+}
+
+.up{
+    text-align: center;
 }
 
 #call-to-action{
