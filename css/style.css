@@ -182,6 +182,9 @@ nav a{
 
 #call-to-action{
     background-image: url(../img/stars.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100px;
 }
 
 #call-to-action h2{
