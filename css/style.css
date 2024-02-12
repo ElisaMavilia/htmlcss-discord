@@ -186,6 +186,11 @@ h1{
     display: inline-block;
 }
 
+.downward-arrow::before{
+    content: "\2193";
+    font-weight: bold;
+}
+
 
 
 /* main */
@@ -263,6 +268,10 @@ footer span{
 
 .top{
     border-bottom: 1px solid var(--color-contrast);
+}
+
+h3{
+    font-size: 25px;
 }
 
 /* icons */
