@@ -45,6 +45,10 @@
     /* padding: 10px; crea un gap bianco tra main e footer */ 
 }
 
+p{
+    line-height:25px;
+}
+
 .small-container{
     max-width: 800px;
     margin: 0 auto;
@@ -141,7 +145,8 @@ body{
 
 nav{
    background-color: var(--color-header-bg);
-   padding: 10px;
+   padding-left: 90px;
+   padding-right: 90px;
 }
 
 .nav-menu{
@@ -154,15 +159,15 @@ nav li a{
     padding: 20px;
 } 
 
-/* nav a{
-    text-decoration: none;
-    color: var(--color-primary);
-} */
+h1{
+    font-size: 35px;
+}
 
 #hero{
     min-height: 450px;
     background-image: url(../img/jumbo.png);
     background-size: cover;
+    padding-top: 70px;
 }
 
 .hero-text-buttons{
