@@ -244,9 +244,15 @@ footer span{
 
 .font-size-link{
     font-size: 10px;
+    line-height: 20px;
+    vertical-align: center;
 }
 .top img{
     width: 20px;
+}
+
+.fa-angle-down{
+    font-size: 10px;
 }
 
 .top,.bottom{
