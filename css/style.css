@@ -98,8 +98,6 @@ p{
     align-items: flex-start;
 }
 
-
-
 .direction-column{
     flex-direction: column;
 }
@@ -114,6 +112,10 @@ p{
 
 .flex-flow{
     flex-flow: row wrap;
+}
+
+.wrap{
+    flex-wrap: wrap;
 }
 
 
@@ -240,6 +242,12 @@ main h2{
 
 #call-to-action h2{
     text-align: center;
+}
+
+.wave{
+    height: 100px;
+    background-image: url(../img/wave.svg);
+    filter: opacity(0.04);
 }
 
 /* footer */
