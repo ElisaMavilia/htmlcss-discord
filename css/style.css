@@ -51,7 +51,7 @@ p{
 }
 
 .small-container{
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 20px;
     padding-bottom: 50px;
@@ -151,12 +151,23 @@ body{
 
 /* header */
 
+header{
+    width: 100%;
+}
+
 nav{
    background-color: var(--color-header-bg);
    padding-left: 90px;
    padding-right: 90px;
+   width: 100%;
 }
 
+.scroll{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--color-header-bg);
+}
 .nav-menu{
    text-decoration: none;
    list-style: none;
